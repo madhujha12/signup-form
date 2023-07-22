@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  -webkit-font-smoothing:antialiased;
+}
+
+:root{
+  --primary-color:#1769AA;
+  --white-color:#f8f8ff;
+  --secondary-color:#5c6bc0;
+  --gray-color:#878484;
+  
+}
+body{
+  height:100vh;
+  width:100vh;
+  margin-left:20rem ;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:var(--white-color);
+  /* background-color:black; */
+
+}
+
+
+input,button{
+  border:none;
+  outline:none;
+  font-size:1rem;
+  background:transparent;
+}
+
+
+
